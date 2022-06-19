@@ -1,5 +1,5 @@
 <template>
-  SideBar
+  Side nav
 </template>
 
 <script>

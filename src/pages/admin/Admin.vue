@@ -1,8 +1,15 @@
 <template>
 
-  <Nav/>
-  <SiderBar/>
-  <router-view/>
+  <Nav />
+  <div class="wrraper">
+      <div class="left-content">
+            <SiderBar />
+      </div>
+      <div class="right-content">
+            <router-view/>
+      </div>
+  </div>
+  
 </template>
 
 <script>
@@ -11,7 +18,7 @@ import SideBar from '@/components/SideBar.vue'
 export default {
 
     name:"Admin",
-    components:{Nav,SideBar}
+    components:{Nav, SideBar}
 
 }
 </script>
