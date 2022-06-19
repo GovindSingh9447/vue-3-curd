@@ -1,12 +1,10 @@
 <template>
-  <router-view/>
+  Side Bar
 </template>
 
 <script>
 export default {
-
-    name:"Admin"
-
+ name: 'SideBar'
 }
 </script>
 
